@@ -1,0 +1,21 @@
+%header
+  %h4 24点
+  .header-right
+    %a.btn-primary.btn(ng-tap="next()" class="btn btn-primary")
+      &nbsp
+      换一个
+      &nbsp
+  .header-left
+    %a.btn-primary.btn(ng-tap="answer()" class="btn btn-primary")
+      &nbsp
+      答案
+      &nbsp
+#wrapper
+  %br
+  %br
+
+  %br
+  %button.btn.btn-block.btn-large(ng-tap="test()") 测试
+  %br
+  %br
+  %button.btn.btn-block.btn-large(ng-tap="choice_five()") 选五个
