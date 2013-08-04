@@ -1,4 +1,4 @@
-package com.fortune.app.wp24;
+package com.fortune.app.wp24.plugins;
 
 import android.util.Log;
 import org.apache.cordova.api.CallbackContext;

@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.fortune.app.wp24;
+package com.fortune.app.wp24.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

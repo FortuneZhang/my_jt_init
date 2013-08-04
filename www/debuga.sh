@@ -17,7 +17,7 @@ echo 'app build...'
 ant debug
 adb install -r bin/p24-debug.apk
 
-adb shell am start -n  com.fortune.app.wp24/com.fortune.app.wp24.MainActivity
+adb shell am start -n  com.fortune.app.wp24/com.fortune.app.wp24.activity.MainActivity
 echo 'activity running'
 
 echo 'backing...'
